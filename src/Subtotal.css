@@ -9,6 +9,12 @@
     border: 1px soild #dddddd;
     border-radius: 3px;
 }
+@media(max-width:768px){
+    .subtotal{
+        width: 95%;
+        padding: 10px;
+    }
+}
 .subtotal_gift{
     display: flex;
     align-items: center;

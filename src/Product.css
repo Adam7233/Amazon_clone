@@ -11,6 +11,7 @@
     background-color:white;
     z-index: 1;
 }
+
 .product:hover{
     transition: all .1s ease-in-out;
     transform:translateY(-5px);
@@ -23,6 +24,17 @@
     margin-bottom: 15px;
     margin-top: 30px;
 }
+@media(max-width:575px){
+    .product{
+        margin-top: 40px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .product > img{
+      max-height: 170px;
+    }
+}
+
 .product > button{
     background-color: #f0c14b;
     margin-top: 10px;

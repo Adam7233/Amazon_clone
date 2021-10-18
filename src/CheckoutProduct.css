@@ -5,7 +5,7 @@
 }
 
 .checkoutProduct_info {
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 .checkoutProduct_info > button {
@@ -27,6 +27,16 @@
   }
 
 .checkoutProduct_title {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
+}
+@media(max-width:768px){
+    .checkoutProduct_image{
+        width: 150px;
+        height: 150px;
+    }
+    .checkoutProduct_title{
+        font-size: 14px;
+    }
+   
 }

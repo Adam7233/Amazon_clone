@@ -23,3 +23,14 @@
 .payment_address, .payment_items, .payment_details{
     flex: 0.8;
 }
+@media(max-width:575px){
+    .payment_container > h1{
+        font-size: 22px;
+    }
+    .payment_title > h3{
+        font-size: 16px;
+    }
+    .payment_priceContainer >h3{
+        font-size: 16px;
+    }
+}
